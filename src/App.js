@@ -11,7 +11,7 @@ import MovieDetail from './components/MovieDetail';
 const FAVORITE_KEY = 'movie_favorites';
 
 export default function App() {
-  // ===== STATE =====
+  
   const [search, setSearch] = useState('');             
   const [genre, setGenre] = useState('All Genres');     
   const [sortBy, setSortBy] = useState('default');      
